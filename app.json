@@ -1,22 +1,28 @@
 {
   "expo": {
-    "name": "Loyaltycard App by Code.Sydney",
-    "slug": "react-native-loyaltycard-code.sydney",
+    "name": "Starter Repo",
+    "slug": "starter-react-native-app-with-express",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "../src/assets/icon.png",
+    "icon": "",
     "splash": {
-      "image": "../src/assets/splash.png",
+      "image": "",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     }
