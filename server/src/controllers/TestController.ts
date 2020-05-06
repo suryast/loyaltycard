@@ -1,15 +1,15 @@
 import { Request, Response, NextFunction } from 'express'
 
-const OwnerController = () => {
-  const createOwner = (req: Request, res: Response, next: NextFunction) => {
-    console.log('Create New Owner')
+const TestController = () => {
+  const createFoo = (req: Request, res: Response, next: NextFunction) => {
+    console.log('Create New Foo')
   }
 
-  const getAllOwners = (req: Request, res: Response, next: NextFunction) => {
-    console.log('All All Owners GET request')
+  const getFoo = (req: Request, res: Response, next: NextFunction) => {
+    console.log('All GET Foo request')
   }
 
-  return { createOwner, getAllOwners }
+  return { createFoo, getFoo }
 }
 
-export default OwnerController
+export default TestController

@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Backend express app with typescript for Loyalty Card\"",
+  "description": "Backend express app with typescript\"",
   "main": "server.ts",
   "scripts": {
     "start": "node dist/server.js",

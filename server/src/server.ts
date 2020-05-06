@@ -1,7 +1,7 @@
 import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
-import ownersRoute from './routes/owner'
+import ownersRoute from './routes/foo'
 
 const app: express.Application = express()
 

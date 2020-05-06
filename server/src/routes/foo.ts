@@ -1,11 +1,11 @@
 import { Router } from 'express'
-import OwnerController from '../controllers/OwnerController'
+import TestController from '../controllers/TestController'
 
 const router = Router()
 
 router
   .route('/')
-  .get(OwnerController().getAllOwners)
-  .post(OwnerController().createOwner)
+  .get(TestController().getFoo)
+  .post(TestController().createFoo)
 
 export default router
